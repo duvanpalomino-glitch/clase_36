@@ -1,0 +1,109 @@
+BITÁCORA DE TERMINAL - CLASE 36
+Código abierto, soberanía tecnológica y primeros pasos en terminal
+
+Nombre del estudiante:hailer duvan julio palomino
+Fecha:23/06/2026
+Clase:36
+Entorno usado:vs code
+
+1. ¿Qué es un sistema operativo?
+Respuesta:es el nucleo de la computadora que jace que todo funcione
+
+2. ¿Qué es el código abierto?
+Respuesta:que se puede modificar por cualquier persona
+
+3. ¿Qué significa soberanía tecnológica?
+Respuesta:tengo el derecho de modificar la tecnologia que sea mia o de codigo abierto
+
+4. ¿Qué es Linux?
+Respuesta: es un software de codigo abierto
+
+5. ¿Qué es Debian?
+Respuesta:es un software distribuido por linux que es conocida por su estabilidad, es para servidores profesionales
+
+6. ¿Qué es un servidor?
+Respuesta:es donde se almacenan los datos
+
+7. ¿Qué es una terminal?
+Respuesta:es para interatuar con el sistema operativo mediante de comandos
+
+8. Comandos ejecutados y resultado observado:
+
+Comando: whoami
+Resultado: para ver el nombre del usuario
+
+Comando: hostname
+Resultado:para ver el nombre del servidor
+
+Comando: date
+Resultado:para ver fecha y hora
+
+Comando: pwd
+Resultado:para ver la ruta de la carpeta
+
+Comando: ls
+Resultado:para ver la lista de archivos
+
+Comando: ls -la
+Resultado: sirve para mostrar todod los archivos contantdo los ocultos
+
+Comando: mkdir practica-linux
+Resultado:para crear carpetas
+
+Comando: cd practica-linux
+Resultado:para entrar a la carpeta
+
+Comando: touch notas.txt
+Resultado:para crear el archivo de notas.txt
+
+Comando: echo "Mi primera practica en terminal Debian" > notas.txt
+Resultado:crea una carpeta notas.txt y dentro de el archivo aparece lo que esta dentro de las comillas
+
+Comando: cat notas.txt
+Resultado:para ver el contenido del archivo
+
+Comando: cp notas.txt copia-notas.txt
+Resultado:para copiar lo que esta en notas.txt y pegarlo en copia-.txt
+
+Comando: mv copia-notas.txt notas-renombradas.txt
+Resultado:sirve para modificar el nombre del archivo
+
+Comando: mkdir respaldo
+Resultado:crea la carpeta respaldo
+
+Comando: mv notas-renombradas.txt respaldo/
+Resultado:cambia el nombre de respaldo a notas-renombradas.txt
+
+Comando: df -h
+Resultado:sirve para ver el espacio disponible y el espacio utilizado del disco duro
+
+Comando: free -h
+Resultado:para ver cuanta memoria ram tiene disponible y cuanta esta utilizando en tiempo real
+
+Comando: uname -a
+Resultado:sirve para ver la información tecnica del sistema operativo y el nucleo
+
+Comando: history
+Resultado:para ver todos los comando utilizados
+
+Comando: ip a
+Resultado:muestra todas las interfaces
+
+Comando: top
+Resultado:para mirar los procesos o tareas en tiempo real
+
+9. ¿Qué comando me pareció más útil y por qué?
+Respuesta:free -h me parece util porque me muestra el estado de la memoria ram,
+y top porque me muestra todas las tareas que se estan ejecutando y puedo ver cual me esta consumiendo mas recurso
+
+10. ¿Qué aprendí sobre el uso responsable de la terminal?
+Respuesta:que no debemos solo copiar y pegar sin saber el comando para que sirve
+
+11. ¿Qué información no debo publicar en capturas o evidencias?
+Respuesta:contraseñas, api o el  
+
+12. ¿Qué cuidados debo tener al trabajar en un servidor?
+Respuesta:saber que comando voy a ejecutar y que elemento quiero eliminar
+
+13. ¿Cómo se relaciona la terminal con la soberanía tecnológica?
+Respuesta:porque puedo poner el comando que quiera a mi gusto 
